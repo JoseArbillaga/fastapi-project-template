@@ -131,18 +131,7 @@ proyecto-api/
 
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
-## 🤝 Contribuir
-
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
 ## 👨‍💻 Autor
 
-**Tu Nombre** - [tu-email@example.com](mailto:tu-email@example.com)
+**JoseArbillaga** - **josearbillaga@gmail.com**
 
----
-
-⭐ Si este proyecto te ayudó, ¡no olvides darle una estrella!
