@@ -141,3 +141,9 @@ setup_*.ps1
 push_*.ps1
 fix_*.ps1
 limpiar_*.ps1
+organizar_*.ps1
+
+# Documentación local (no subir a GitHub)
+documentacion_local/
+docs_locales/
+setup_docs/
