@@ -19,9 +19,14 @@ winget install --id Git.Git -e --source winget
 
 ## ⚙️ Paso 2: Configurar Git (primera vez)
 
+✅ **YA COMPLETADO** - Tu Git está configurado con:
+- Nombre: Jarbillaga  
+- Email: jarbillaga@gmail.com
+
 ```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu-email@example.com"
+# Solo si necesitas cambiar la configuración:
+git config --global user.name "Jarbillaga"
+git config --global user.email "jarbillaga@gmail.com"
 ```
 
 ## 🚀 Paso 3: Crear repositorio en GitHub
@@ -38,25 +43,19 @@ git config --global user.email "tu-email@example.com"
 
 ## 📁 Paso 4: Preparar y subir el proyecto
 
-Ejecuta estos comandos en orden en tu terminal (PowerShell):
+✅ **YA COMPLETADO** - Tu repositorio local está listo con:
+- Repositorio inicializado
+- Todos los archivos agregados  
+- Commit inicial creado
+- Rama cambiada a 'main'
+
+**PRÓXIMO PASO:** Conectar con GitHub
 
 ```bash
-# 1. Inicializar repositorio local
-git init
-
-# 2. Agregar todos los archivos
-git add .
-
-# 3. Hacer el primer commit
-git commit -m "🎉 Initial commit: FastAPI project with CRUD, tests and docs"
-
-# 4. Agregar el repositorio remoto (reemplaza con tu URL)
+# 4. Agregar el repositorio remoto (reemplaza TU-USUARIO con tu usuario de GitHub)
 git remote add origin https://github.com/TU-USUARIO/fastapi-project-template.git
 
-# 5. Cambiar a rama main (recomendado)
-git branch -M main
-
-# 6. Subir al repositorio
+# 5. Subir al repositorio (esto pedirá tu autenticación)
 git push -u origin main
 ```
 
