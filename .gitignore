@@ -127,3 +127,17 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Archivos de configuración y setup (solo local)
+*_git.ps1
+*_github.ps1
+*_repo.ps1
+INSTRUCCIONES_*.md
+PROYECTO_*.md
+SIGUIENTE_*.md
+COMO_*.md
+*_PASO.md
+setup_*.ps1
+push_*.ps1
+fix_*.ps1
+limpiar_*.ps1

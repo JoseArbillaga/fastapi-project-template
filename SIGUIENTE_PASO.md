@@ -24,23 +24,23 @@ Tu Git ya está funcionando correctamente:
 
 ### 2. Conectar y subir tu código
 
-Después de crear el repo, ejecuta estos comandos:
+✅ **YA COMPLETADO** - Remote configurado correctamente:
+- URL: https://github.com/JoseArbillaga/fastapi-project-template.git
+
+**PRÓXIMO PASO: Hacer push**
 
 ```powershell
-# Agregar Git al PATH (si es necesario en una nueva sesión)
+# Agregar Git al PATH (si es necesario)
 $env:PATH += ";C:\Program Files\Git\bin"
 
-# Conectar con GitHub (reemplaza TU-USUARIO con tu usuario de GitHub)
-git remote add origin https://github.com/TU-USUARIO/fastapi-project-template.git
-
-# Subir el código
+# Subir el código (esto pedirá autenticación)
 git push -u origin main
 ```
 
 ### 3. Autenticación en GitHub
 
 Cuando Git pida credenciales:
-- **Username**: tu-usuario-de-github
+- **Username**: `JoseArbillaga` (tu usuario de GitHub)
 - **Password**: **Personal Access Token** (NO tu contraseña de GitHub)
 
 **Para crear un token:**
